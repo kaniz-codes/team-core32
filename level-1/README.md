@@ -4,6 +4,11 @@
 
 The firmware runs every job as a separate FreeRTOS task on both CPU cores, with no blocking waits. A task watchdog restarts the board if any task freezes.
 
+## Evidence
+
+- Git tag: `level-01`
+- Documentation and video: [Google Drive](https://drive.google.com/drive/folders/1NhekVwZNdqFo9HvLmIQ_xfB4g_q1X2Ag?usp=sharing)
+
 ## Hardware and pins
 
 | Module | Pins (GPIO) |
@@ -49,7 +54,4 @@ The test-only commands `reboot` and `crash` force the SOFTWARE and CRASH reset r
 [CARD] uid=A1B2C3D4
 ```
 
-## Evidence
 
-- Git tag: `level-01`
-- Documentation and video: [Google Drive](https://drive.google.com/drive/folders/1NhekVwZNdqFo9HvLmIQ_xfB4g_q1X2Ag?usp=sharing)
